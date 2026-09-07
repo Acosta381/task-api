@@ -29,6 +29,7 @@ I wanted a portfolio project that goes beyond basic CRUD tutorials. I wanted to 
 - **Fully async** — SQLAlchemy 2.0 with `AsyncSession` throughout the application
 - **Automated tests** — 12 tests covering authentication, CRUD and authorization edge cases, using a separate test database to keep test data isolated
 - **Docker** — one command starts the API and database together
+- **Interactive API docs** — auto-generated Swagger UI at `/docs`.
 
 ## Tech stack
 
@@ -75,6 +76,8 @@ POSTGRES_DB=taskdb
 
 5. Open the interactive API docs:
 http://localhost:8000/docs
+
+**Interactive API documentation:** This project uses FastAPI's built-in Swagger UI, automatically available at `/docs` once running. You can explore every endpoint, view request/response schemas and test calls directly from your browser.
 
 ## Running tests
 
