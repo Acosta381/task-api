@@ -5,6 +5,11 @@ A REST API for managing tasks, built with FastAPI and PostgreSQL. Includes full 
 ## Why I built this
 I wanted a portfolio project that goes beyond basic CRUD tutorials. I wanted to build something that reflects the kind of backend work I'd actually be doing in an internship, with proper authentication, authorization, testing and Docker instead of just endpoints that read and write to a database.
 
+## Live Demo
+[Live API docs](https://task-api-rlvt.onrender.com/docs)
+
+Note: hosted on Render's free tier, so the app may take up to a minute to wake up after being inactive.
+
 ## Screenshots
 **API documentation overview**
 ![API docs overview](docs/screenshots/api-docs-overview.png)
