@@ -46,6 +46,12 @@ Note: hosted on Render's free tier, so the app may take up to a minute to wake u
 - **Tooling:** uv, ruff
 - **Containerization:** Docker, Docker Compose
 
+## CI/CD
+
+I set up GitHub Actions to automatically run Ruff and Pytest with a separate PostgreSQL database whenever I open a pull request or push changes to main.
+
+For deployment, I'm using Render, which automatically deploys the latest changes once the CI checks pass.
+
 ## Getting started
 
 ### Prerequisites
@@ -57,7 +63,7 @@ Note: hosted on Render's free tier, so the app may take up to a minute to wake u
 1. Clone the repository:
 ```bash
    git clone https://github.com/Acosta381/task-api.git
-   cd crud
+   cd task-api
 ```
 
 2. Create a `.env` file in the project root:
